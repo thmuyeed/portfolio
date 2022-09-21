@@ -1,0 +1,8 @@
+@media only screen and (max-width: 500px){
+
+    .site-main .contacts-us-area .experience-area{
+        display: none;
+    }
+    .site-main .main-site .site-title h1 {
+        font-size: 3rem;
+    }

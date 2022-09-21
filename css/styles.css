@@ -1,0 +1,201 @@
+@import url('./font-face.css');
+
+@import url(./common.css);
+@import url(./var.css);
+
+.navigation .main-menu .navbar .navbar-brand{
+    padding: 0 2rem 0 5rem;
+}
+
+.navigation .main-menu .navbar{
+    padding: 1rem 20rem ;
+}
+.navigation .nav-item .nav-link{
+    font: normal 500 15px/2px var(--roboto);
+    text-transform: uppercase;
+    padding: 1.7rem;
+    color: var(--title-color);
+}
+.navigation .navbar-nav .active a{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.navigation .navbar-nav a:hover{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/*  main-site */
+
+
+.site-main .main-site .site-title h3::after{
+    content: " ";
+    height: 2px;
+    width: 18vw;
+    background: black;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-10px);
+}
+
+.site-main .main-site .site-title h3{
+    padding-top: 35%;
+    font-weight: 500;
+}
+.site-main .main-site .site-title h1{
+    font-size: 5rem;
+}
+.site-title .main-site .site-title h4{
+    font-size: 1.5rem;
+}
+.site-main .main-site .banner-image > img{
+    padding: 7rem 0;
+    
+}
+/* about */
+
+
+.site-main .about-title{
+    padding: 8rem 5rem;
+}
+
+.site-main .about-area .about-title > p{
+    padding: .4rem 0;
+}
+
+
+
+/* services */
+
+
+.site-main .services-area{
+    padding: 7rem 2rem;
+}
+.site-main .services-area .services-title{
+    padding: 0 14rem;
+}
+.site-main .services-area .services-title h1{
+    font-size: 35px;
+}
+.site-main > .services-area .services{
+    background: rgba(248, 252, 253, 0.973);
+    padding: 2rem 2rem;
+    width: 16rem;
+    margin: 5rem .5rem;
+    transition: box-shadow .7s ease;
+}
+.site-main > .services-area .services:hover{
+    box-shadow: var(--box-shadow);
+}
+.site-main .recent-work .grid .our-project > .title h4{
+    font: normal 700 25px/12px var(--roboto);
+}
+
+.site-main .recent-work .grid .our-project .img a:hover img{
+    filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+}
+
+
+/*  contacts */
+.site-main .contacts-us-area .social{
+    background: url(../image/subscribe-bg.png) no-repeat;
+    padding: 10rem 0;
+    margin: 3rem auto;
+    
+
+}
+.site-main .contacts-us-area .social h3{
+    font: normal 700 30px/30px var(--roboto);
+    color: whitesmoke;
+    
+}
+.site-main .contacts-us-area .social a i{
+    color: #000;
+    padding: 5px;
+    border-radius: 50%;
+    margin:15px 20px; 
+}.site-main .contacts-us-area .social a i:hover{
+    background: whitesmoke;
+    
+    padding: 5px;
+    border-radius: 50%;
+    margin:15px 20px; 
+}
+
+.site-main .contacts-us-area .experience-area{
+    padding-left: 1rem;
+    position: relative;
+}
+
+.site-main .contacts-us-area .experience-area span{
+    display: block;
+}
+
+.site-main .contacts-us-area .experience-area .years-area{
+    background: url(../image/client-info-bg.png) no-repeat 45px 20px;
+    padding: 2rem 0;
+    width: 40rem;
+    height: 18rem;
+    padding-left: 8rem;
+    position: relative;
+}
+
+.site-main .contacts-us-area .experience-area .bg-panel{
+    position: absolute;
+    left:-190px; top: 0%;
+    background: #e029290a;
+    width: 400px;
+    height: 400px;
+    margin-left: 340px;
+    z-index: -1;
+}
+
+.site-main .contacts-us-area .experience-area .years-area .years{
+    font: normal bold 84px/40px var(--roboto);
+    color: var(--primary-color2);
+    z-index: 2;
+}
+
+.site-main .contacts-us-area .experience-area .years-area h2 > span{
+    font: normal 600 22px/30px var(--roboto);
+}
+.site-main .contacts-us-area .experience-area .call-now a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    
+    
+
+}
+
+.site-main .contacts-us-area .experience-area .call-area{
+    padding-left: 10rem;
+}
+
+
+/* footer */
+
+footer.footer-area{
+    padding: 5rem 0;
+    background: url(../image/footer-bg.png) no-repeat;
+}
+
+footer.footer-area .site-logo h5{
+    font: normal 500 23px/ 30px var(--roboto);
+}
+
+footer.footer-area .site-logo a{
+    text-decoration: none;
+    font-size:22px;
+    padding: 2rem;
+    color: var(--border-color);
+}
+
+
+footer.footer-area .site-logo a:hover{
+    color: var(--primary-color);
+}
+
